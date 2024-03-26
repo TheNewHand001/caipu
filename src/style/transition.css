@@ -1,0 +1,29 @@
+/* 第一次加载时显示 */
+.coder-appear {
+  transform: translateX(-200px);
+}
+
+.coder-appear-active {
+  transform: translateX(0);
+  transition: all 2s ease-in;
+}
+
+/* 进入动画 */
+.coder-enter {
+  opacity: 0;
+}
+
+.coder-enter-active {
+  opacity: 1;
+  transition: all 2s ease-in;
+}
+
+/* 退出动画 */
+.coder-exit {
+  opacity: 1;
+}
+
+.coder-exit-active {
+  opacity: 0;
+  transition: all 2s ease-in;
+}
